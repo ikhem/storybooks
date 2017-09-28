@@ -10,7 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.1.0",
+    "cookie-parser": "^1.4.3",
     "express": "^4.15.5",
+    "express-session": "^1.15.6",
     "mongoose": "^4.11.13",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0"
