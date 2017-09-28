@@ -3,6 +3,9 @@ const mongoose = require('mongoose');
 const chalk = require('chalk');
 const passport = require('passport');
 
+// Load User Model
+require('./models/Users');
+
 // Passport Config
 require('./config/passport')(passport);
 
